@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <div class="logo">
+            <div class="logo-img">
+                <img src="./48x48/1484686600_Profile01.png" alt="" srcset="">
+            </div>
+            <div class="logo-title">
+                Admin
+            </div>
+        </div>
+    </div>
+    <div class="main">
+        <div class="main-container">
+            <!-- <div class="main-container-menu-doc">
+                <ol>
+                    <li class="menudoc">
+                        Quản lý loại sản phẩm
+                        <ol>
+                            <li class="submenu">Quản lý loại</li>
+                            <li class="submenu">Quản lý thêm</li>
+                            <li class="submenu">Quản lý sửa</li>
+                            <li class="submenu">Quản lý xóa</li>
+                        </ol>
+                    </li>
+                    <li class="menudoc">
+                        Quản lý sản phẩm
+                        <ol>
+                            <li class="submenu">Quản lý loại</li>
+                            <li class="submenu">Quản lý thêm</li>
+                            <li class="submenu">Quản lý sửa</li>
+                            <li class="submenu">Quản lý xóa</li>
+                        </ol>
+                    </li>
+                    <li class="menudoc">
+                        Quản lý đơn hàng
+                        <ol>
+                            <li class="submenu">Quản lý loại</li>
+                            <li class="submenu">Quản lý thêm</li>
+                            <li class="submenu">Quản lý sửa</li>
+                            <li class="submenu">Quản lý xóa</li>
+                        </ol>
+                    </li>
+                    <li class="menudoc">
+                        Quản lý người dùng
+                        <ol>
+                            <li class="submenu">Quản lý loại</li>
+                            <li class="submenu">Quản lý thêm</li>
+                            <li class="submenu">Quản lý sửa</li>
+                            <li class="submenu">Quản lý xóa</li>
+                        </ol>
+                    </li>
+                </ol>
+            </div> -->
+            <div id="menu">
+                <ul>
+                    <li>
+                        <a href="#">Quản lý loại sản phẩm</a>
+                        <ul class="sub-menu">
+                            <li>
+                                <a href="#">Content</a>
+                            </li>
+                            <li>
+                                <a href="#">Date</a>
+                            </li>
+                            <li>
+                                <a href="#">Value</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">Quản lý sản phẩm</a>
+                        <ul class="sub-menu">
+                            <li>
+                                <a href="#">Content</a>
+                            </li>
+                            <li>
+                                <a href="#">Date</a>
+                            </li>
+                            <li>
+                                <a href="#">Value</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">Quản lý đơn hàng</a>
+                        <ul class="sub-menu">
+                            <li>
+                                <a href="#">Content</a>
+                            </li>
+                            <li>
+                                <a href="#">Date</a>
+                            </li>
+                            <li>
+                                <a href="#">Value</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">Quản lý người dùng</a>
+                        <ul class="sub-menu">
+                            <li>
+                                <a href="#">Content</a>
+                            </li>
+                            <li>
+                                <a href="#">Date</a>
+                            </li>
+                            <li>
+                                <a href="#">Value</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+              </div>
+            <div class="main-container-quanly">
+                <div class="main-container-quanly-tittle">
+                    <div class="main-container-quanly-tittle-content">
+                        <h2>Quản lý sản phẩm</h2>
+                    </div>
+                    <div class="main-container-quanly-tittle-button">
+                        <button type="submit">Thêm sản phẩm</button>
+                    </div>
+                </div>
+                <div class="main-container-quanly-container">
+                        <table class="table" border="1px" cellpadding=2 cellspacing = 1>
+                            <thead>
+                                <tr class="thead">
+                                    <th class="thead-tittle-1">Mã sản phẩm</th>
+                                    <th class="thead-tittle-2">Tên sản phẩm</th>
+                                    <th class="thead-tittle-3">Ảnh</th>
+                                    <th class="thead-tittle-4">Giá</th>
+                                    <th class="thead-tittle-5">Số lượng</th>
+                                    <th class="thead-tittle-6">Xóa</th>
+                                    <th class="thead-tittle-7">Sửa</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td class="maSP" scope="row">SP01</td>
+                                    <td class="tenSP">Cà phê phin</td>
+                                    <td class="anhSP">
+                                        <img src="./img/menu-PSD_3.png" alt="">
+                                    </td>
+                                    <td class="giaSP">
+                                        20000 VND
+                                    </td>
+                                    <td class="soluongSP">
+                                        <div class="soluongSP-container">
+                                            <div class="soluongSP-container-div">
+                                                <button id="tru">-</button>
+                                            </div>
+                                            <div class="soluongSP-container-content">
+                                                <input id="ip" value="1" type="text">
+                                            </div>
+                                            <div class="soluongSP-container-plus">
+                                                <button id="cong">+</button>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td class="xoaSP">
+                                        <button>
+                                            <img src="./48x48/1484686546_TrashBin.png" alt="" srcset="">
+                                        </button>
+                                    </td>
+                                    <td class="suaSP">
+                                        <button>
+                                            <img src="./32x32/1484685396_Information.png" alt="">
+                                        </button>
+                                    </td>
+                                    
+                                </tr>
+                                <tr>
+                                    <td class="maSP" scope="row">SP02</td>
+                                    <td class="tenSP">Bánh mì</td>
+                                    <td class="anhSP">
+                                        <img src="./img/banh-mi-thit-nuong-vn.png" alt="">
+                                    </td>
+                                    <td class="giaSP">
+                                        20000 VND
+                                    </td>
+                                    <td class="soluongSP">
+                                        <div class="soluongSP-container">
+                                            <div class="soluongSP-container-div">
+                                                <button id="tru1">-</button>
+                                            </div>
+                                            <div class="soluongSP-container-content">
+                                                <input id="ip1" value="1" type="text">
+                                            </div>
+                                            <div class="soluongSP-container-plus">
+                                                <button id="cong1">+</button>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td class="xoaSP">
+                                        <button>
+                                            <img src="./48x48/1484686546_TrashBin.png" alt="" srcset="">
+                                        </button>
+                                    </td>
+                                    <td class="suaSP">
+                                        <button>
+                                            <img src="./32x32/1484685396_Information.png" alt="">
+                                        </button>
+                                    </td>
+                                    
+                                </tr>
+                            </tbody>
+                        </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="js.js"></script>
+</body>
+</html>

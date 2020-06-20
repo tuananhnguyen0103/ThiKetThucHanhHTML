@@ -1,0 +1,210 @@
+*{
+    padding: 0;
+    box-sizing:  border-box;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.header{
+    width:  100%;
+    height: 6rem;
+    background-color: beige;
+    display: flex;
+    justify-content: flex-end;
+}
+.logo{
+    width: 10%;
+    height: 100%;
+    background-color: #ce2a2a;
+    
+}
+.logo-img {
+    height: 80%;
+    display: flex;
+    justify-content: center;
+}
+.logo-img img{
+    width: auto;
+    height: 100%;
+    border: 1px solid #fff;
+    border-radius: 5rem;
+    background-color: #fff;
+}
+.logo-title{
+    height: 20%;
+    text-align: center;
+    color: #fff;
+    font-size: 1rem;
+}
+
+/* main */
+.main{
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.main-container{
+    width: 100%;
+    display: flex;
+}
+/*meun dọc*/
+
+/****/
+body {
+    font-family: sans-serif;
+    font-size: 15px;
+   }
+   #menu ul {
+    background: #8AD385;
+    width: 250px;
+    padding: 0;
+    list-style-type: none;
+    text-align: left;
+   }
+   #menu li {
+    width: auto;
+    height: 40px;
+    line-height: 40px;
+    border-bottom: 1px solid #e8e8e8;
+    padding: 0 1em;
+   }
+   #menu li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    display: block;
+   }
+   #menu li:hover {
+    background: #CDE2CD;
+    cursor: pointer;
+   }
+   #menu ul li {
+    position: relative;
+   }
+   #menu .sub-menu {
+    position: absolute;
+    left: 250px;
+    top: 0;
+   }
+   #menu .sub-menu {
+    position: absolute;
+    left: 250px;
+    top: 0;
+    display: none;
+   }
+   #menu li:hover .sub-menu {
+    display: block;
+   }
+/*End menu dọc*/
+.main-container-quanly{
+    width: 75%;
+    margin: 0 1rem;
+}
+
+.main-container-quanly-tittle{
+    height: 5rem;
+    width: 100%;
+    margin: 2rem 0rem;
+
+}
+.main-container-quanly-tittle-content{
+    height: 70%;
+}
+.main-container-quanly-tittle-content h2{
+    text-align: center;
+}
+.main-container-quanly-tittle-button{
+    display: flex;
+    justify-content: flex-end;
+}
+.main-container-quanly-container{
+    width: 100%;
+}
+.main-container-quanly-container table{
+    width: 100%;
+}
+.table thead{
+    width: 100%;
+}
+.thead-tittle-1{
+    width: 20%;
+}
+.thead-tittle-2{
+    width: 20%;
+}
+.thead-tittle-3{
+    width: 30%;
+}
+.thead-tittle-4{
+    width: 10%;
+}
+.thead-tittle-5{
+    width: 10%;
+}
+.thead-tittle-6{
+    width: 10%;
+    width: 4rem;
+}
+.thead-tittle-7{
+    width: 10%;
+    width: 4rem;
+}
+
+tbody tr td{
+    height: 4rem;
+    text-align: center;
+}
+
+
+/*Table*/
+tbody tr .anhSP{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+tbody tr .anhSP img{
+    margin: auto;
+    width: auto;
+    height: 4rem;
+}
+.suaSP{
+    width: 100%;
+    
+}
+.xoaSP{
+    width: 100%;
+}
+td button{
+    width: 100%;
+}
+.xoaSP button{
+    height: 50%;
+    width: 50%;
+}
+.suaSP button{
+    height: 50%;
+    width: 70%;
+    height: 50%;
+    
+    padding: 0 1rem;
+}
+.soluongSP-container{
+    display: flex;
+    justify-content: center;
+}
+.soluongSP-container-content{
+    width:50%
+}
+.soluongSP-container-content input{
+    width: 100%;
+}
+
+button img{
+    height: 100%;
+    width: auto;
+}
+.suaSP button img{
+    height: 100%;
+    width: auto;
+    position: relative;
+    left: -0.5rem;
+}
