@@ -10,6 +10,7 @@ $("#tru").click(function(){
 $("#cong").click(function(){
     var values=$("#ip").val();
   
+    
     var change=Number(values)+1;
     $("#ip").val(Number(change));
 })
